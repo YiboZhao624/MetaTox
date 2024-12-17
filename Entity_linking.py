@@ -220,13 +220,5 @@ def main():
         logger.info(f"Merged nodes embeddings saved to {args.output_path}/{args.dataset}_nodes_embeddings.json")
 
 
-# set the distance threshold to 0.5, return 40108/41468 entities.
-# set the distance threshold to 1, return 40094/41468 entities.
-# set the distance threshold to 2, return 39037/41468 entities.
-# set the distance threshold to 3, return 31492/41468 entities.
-# set the distance threshold to 5, return 12617/41468 entities.
-# set the distance threshold to 10, return 1851/41468 entities.
-
-
 if __name__ == "__main__":
     main()
