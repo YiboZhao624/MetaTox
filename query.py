@@ -621,10 +621,6 @@ def main():
                     # logger.info(f"triplets_list_str: {triplets_list_str}")
                     # logger.info(f"type of reranked_triplets_idx: {type(reranked_triplets_idx)}")
                     minimized_subgraph = [triplets_list_str[i] for i in reranked_triplets_idx]
-            if len(minimized_subgraph) == 0:
-                logger.warning(f"No related triplets found for the query {i}.")
-            else:
-                logger.info(f"The number of triplets is {len(minimized_subgraph)} for the query {i}.")
             # step 7: prepare the data for the LLM
             prompt = prepare4LLM(query_text, minimized_subgraph, args.which_prompt)
 
