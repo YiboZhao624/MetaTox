@@ -35,7 +35,7 @@ Due to the used datasets are well established by the previous works, we do not p
 
 To ensure the reproducibility of our experiments, we adopted the data split as HateXplain provided ids. For the rest two datasets, we used the train-test split with random seed 42, which is written in the code.
 
-The meta-toxic knowledge graph built by Qwen2.5-14B-Instruct can be acquired by sending an email to [Yibo Zhao](yibozhao@stu.ecnu.edu.cn).
+The meta-toxic knowledge graph built by Qwen2.5-14B-Instruct can be acquired by sending an email to `yibozhao@stu.ecnu.edu.cn`.
 
 ### 3.2. Graph Construction
 
