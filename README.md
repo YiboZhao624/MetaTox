@@ -35,6 +35,8 @@ Due to the used datasets are well established by the previous works, we do not p
 
 To ensure the reproducibility of our experiments, we adopted the data split as HateXplain provided ids. For the rest two datasets, we used the train-test split with random seed 42, which is written in the code.
 
+The meta-toxic knowledge graph built by Qwen2.5-14B-Instruct can be acquired by sending an email to [Yibo Zhao](yibozhao@stu.ecnu.edu.cn).
+
 ### 3.2. Graph Construction
 
 To construct the knowledge graph, we first need to extract the triplets from the data. The code for extracting the triplets is in the file `Triplets_extracting.py`. It is corresponding to the Section 3.2 in the paper.
