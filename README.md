@@ -89,3 +89,18 @@ This part is corresponding to the Section 4.3 in the paper. You can simply run t
 ### 3.5. Baseline
 
 To reproduce the baseline results, you can use the `baseline.py` file. This is corresponding to the Section 4.1 in the paper. You can see the detailed description in the code.
+
+## Citation
+
+If this work is related or useful for your research, please cite:
+
+```
+@inproceedings{
+2025enhancing,
+title={Enhancing {LLM}-based Hatred and Toxicity Detection with Meta-Toxic Knowledge Graph},
+author={Yibo Zhao, Jiapeng Zhu, Can Xu, Yao Liu, Xiang Li},
+booktitle={The 63rd Annual Meeting of the Association for Computational Linguistics},
+year={2025},
+url={https://openreview.net/forum?id=pUpPJqDgZz}
+}
+```
