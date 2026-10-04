@@ -35,7 +35,7 @@ Due to the used datasets are well established by the previous works, we do not p
 
 To ensure the reproducibility of our experiments, we adopted the data split as HateXplain provided ids. For the rest two datasets, we used the train-test split with random seed 42, which is written in the code.
 
-The meta-toxic knowledge graph built by Qwen2.5-14B-Instruct can be acquired by sending an email to `yibozhao@stu.ecnu.edu.cn`.
+The meta-toxic knowledge graph built by Qwen2.5-14B-Instruct has been uploaded as `merged_3dataset_merged_{entities,triplets}.json`. It is worth noting that Qwen2.5-14B-Instruct is relatively outdated and has weaker capabilities compared with state-of-the-art LLMs. We recommend using more advanced, up-to-date models to reconstruct the knowledge graph, which may achieve improved performance.
 
 ### 3.2. Graph Construction
 
